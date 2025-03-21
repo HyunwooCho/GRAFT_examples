@@ -1,0 +1,24 @@
+{
+  "model_name": "facebook/opt-350m",
+  "dataset_config": {
+    "name": "imdb",
+    "text_column": "text",
+    "sample_prompt": "This movie was"
+  },
+  "output_dir": "./output/opt-lora",
+  "epochs": 3,
+  "batch_size": 8,
+  "peft_method": "lora",
+  "peft_config": {
+    "r": 8,
+    "alpha": 16,
+    "dropout": 0.1,
+    "target_modules": ["q_proj", "v_proj"]
+  },
+  "eval_strategy": "steps",
+  "save_strategy": "steps",
+  "logging_steps": 100,
+  "save_total_limit": 2,
+  "fp16": true,
+  "max_length": 512
+}

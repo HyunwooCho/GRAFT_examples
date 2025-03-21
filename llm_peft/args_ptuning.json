@@ -1,0 +1,21 @@
+{
+    "model_name": "google/gemma-2b",
+    "dataset_config": {
+      "name": "samsum",
+      "text_column": "dialogue",
+      "sample_prompt": "Summarize this conversation:"
+    },
+    "output_dir": "./output/gemma-ptuning",
+    "epochs": 3,
+    "batch_size": 4,
+    "peft_method": "p_tuning",
+    "peft_config": {
+      "num_virtual_tokens": 20,
+      "encoder_hidden_size": 128
+    },
+    "eval_strategy": "epoch",
+    "save_strategy": "epoch",
+    "logging_steps": 100,
+    "save_total_limit": 2,
+    "fp16": true
+  }

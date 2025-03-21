@@ -1,0 +1,11 @@
+torch
+torchvision
+torchaudio
+transformers
+datasets
+evaluate
+tokenizers
+scipy
+numpy
+jsonlines
+tqdm

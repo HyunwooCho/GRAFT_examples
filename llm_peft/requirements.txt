@@ -1,0 +1,22 @@
+# Backend Framework
+# fastapi
+# uvicorn[standard]
+
+# Machine Learning & Fine-tuning
+transformers
+peft
+datasets
+accelerate
+xformers
+deepspeed
+
+# Database (PostgreSQL)
+# sqlalchemy
+# asyncpg
+# alembic
+
+# Utility Packages
+filelock
+pydantic
+pydantic-settings
+pybind11
