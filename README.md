@@ -1,4 +1,4 @@
-# GRAFT - GPU-optimized Reduction and Fine-Tuning Toolkit
+# GRAFT - Generative AI Refinement & Fine-Tuning Toolkit
 
 GRAFT is a comprehensive toolkit for optimizing large language models (LLMs) through various techniques including knowledge distillation, parameter-efficient fine-tuning, pruning, and quantization. This toolkit enables researchers and developers to create more efficient and deployable LLMs while maintaining performance.
 
