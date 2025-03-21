@@ -219,10 +219,10 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 If you use GRAFT in your research, please cite:
 
 ```
-@software{graft_toolkit,
-  author = {GRAFT Contributors},
-  title = {GRAFT: GPU-optimized Reduction and Fine-Tuning Toolkit},
-  url = {https://github.com/username/GRAFT_examples},
+@software{graft,
+  author = {tenace@etri.re.kr},
+  title = {GRAFT: Generative AI Refinement & Fine-Tuning Toolkit},
+  url = {https://github.com/HyunwooCho/GRAFT_examples},
   year = {2025},
 }
 ```
